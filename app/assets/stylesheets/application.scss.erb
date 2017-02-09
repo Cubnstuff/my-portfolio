@@ -1,0 +1,101 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+  .navbar{
+     text-shadow: 1px 1px , 10 5 25px white;
+     background: rgba(9, 6, 6, 0.77);
+     color: black;
+      font-size: 2em;
+      font-family: 'Quicksand', sans-serif;
+   
+         
+   }
+
+    li{
+     text-shadow: 1px 1px  , 0 0 25px white;
+      
+        display: inline;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    
+    body{
+        padding-top: 70px;
+        background: url(<%= "blur2.jpg" %>) no-repeat center center fixed;
+        background-size: cover;
+       
+        
+    }
+   
+   .about{
+       font-family: 'Quicksand', sans-serif;
+       text-shadow:  0 0 25px white;
+       background: rgba(209, 120, 236, 0.6);
+       box-shadow: 8px 8px 5px #241C2A; 
+       
+       color: black;
+       
+    }
+    
+    h1 {
+        font-family: 'Quicksand', sans-serif;
+        text-shadow: 1px 1px , 0 0 25px white;
+        color: black;
+    }
+    
+    .img-circle {
+        height: 400px;
+        width: 400px;
+        box-shadow: 5px 5px 5px #241C2A;
+        }
+        
+
+    
+    
+    li:hover, a:hover {
+    color: #DDD3D3;
+
+    text-shadow: #000 0 0 5px;
+
+    text-decoration:none;
+     }
+     
+     
+    .projects{
+       font-family: 'Quicksand', sans-serif;
+       text-shadow:  0 0 25px white;
+       background: rgba(193, 66, 66, 0.25);
+       box-shadow: 8px 8px 5px #241C2A; 
+       
+       color: black;
+       
+    }
+    
+     .art{
+       font-family: 'Quicksand', sans-serif;
+       text-shadow:  0 0 25px white;
+       background: rgba(209, 120, 236, 0.6);
+       box-shadow: 8px 8px 5px #241C2A; 
+       
+       color: black;
+       
+    }
